@@ -1,0 +1,13 @@
+
+body{font-family:'Inter',sans-serif;}
+.nav-link{display:inline-flex;align-items:center;padding:0.25rem 0.5rem;font-weight:500;color:#374151;transition:color .2s;}
+.nav-link:hover{color:#4f46e5;}
+.feature-card{background:#fff;padding:1.5rem;border-radius:0.5rem;box-shadow:0 1px 2px rgb(0 0 0 / 0.05);text-align:center;transition:box-shadow .2s;}
+.feature-card:hover{box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.blog-card{background:#fff;border-radius:0.5rem;box-shadow:0 1px 2px rgb(0 0 0 / 0.05);transition:box-shadow .2s;}
+.blog-card:hover{box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.read-more{margin-top:1rem;display:inline-block;font-weight:600;color:#4f46e5;}
+.footer-link{display:block;padding:0.25rem 0;color:inherit;transition:color .2s;}
+.footer-link:hover{color:#ffffff;}
+.social-link{transition:color .2s;}
+.social-link:hover{color:#ffffff;}

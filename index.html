@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>FinanzasYA - Tu guía de finanzas personales 2025</title>
+  <meta name="description" content="Aprende a ahorrar, invertir y multiplicar tu dinero rápidamente.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FinanzasYA - Tu guía de finanzas personales 2025">
+  <meta property="og:description" content="Aprende a ahorrar, invertir y multiplicar tu dinero rápidamente.">
+  <meta property="og:url" content="https://tudominio.eu.org">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1567428485548-0aa9d1a391c5?auto=format&fit=crop&w=1200&q=60">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a3d0f4e3b0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+  <!-- NAV -->
+  <nav class="bg-white/80 backdrop-blur sticky top-0 z-20 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <a href="#" class="flex-shrink-0 flex items-center text-2xl font-bold text-indigo-600">FinanzasYA</a>
+          <div class="hidden sm:ml-8 sm:flex sm:space-x-8">
+            <a href="#features" class="nav-link">Funcionalidades</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contacto</a>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <a href="#newsletter" class="hidden sm:inline-block rounded-md bg-indigo-600 px-4 py-2 text-white font-semibold hover:bg-indigo-500 transition">Suscríbete</a>
+          <button id="menuBtn" class="sm:hidden inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
+            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <path class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobileMenu" class="sm:hidden hidden px-4 pb-4">
+      <a href="#features" class="block py-2 nav-link">Funcionalidades</a>
+      <a href="#blog" class="block py-2 nav-link">Blog</a>
+      <a href="#contact" class="block py-2 nav-link">Contacto</a>
+      <a href="#newsletter" class="block py-2 nav-link">Suscríbete</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-24 text-center">
+      <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-6">Domina tus finanzas sin complicaciones</h1>
+      <p class="max-w-2xl mx-auto text-lg sm:text-xl mb-8">Herramientas, guías y consejos accionables para ahorrar, invertir y multiplicar tu dinero en Argentina.</p>
+      <a href="#blog" class="inline-block px-8 py-3 bg-white text-indigo-700 font-semibold rounded-md shadow-lg hover:bg-gray-100 transition">Empieza ahora</a>
+    </div>
+    <div class="absolute inset-x-0 bottom-0">
+      <svg viewBox="0 0 1440 100" fill="currentColor" class="text-white transform rotate-180 w-full">
+        <path d="M0,0 C480,100 960,0 1440,100 L1440,100 L0,100 Z"></path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">¿Por qué FinanzasYA?</h2>
+      <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="feature-card">
+          <i class="fa-solid fa-piggy-bank text-4xl mb-4 text-indigo-600"></i>
+          <h3 class="text-xl font-semibold mb-2">Ahorro inteligente</h3>
+          <p>Aprende métodos probados para reducir gastos y construir tu fondo de emergencia.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-chart-line text-4xl mb-4 text-indigo-600"></i>
+          <h3 class="text-xl font-semibold mb-2">Inversiones fáciles</h3>
+          <p>Guías paso a paso sobre CEDEARs, ETFs y criptomonedas sin tecnicismos.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-hand-holding-dollar text-4xl mb-4 text-indigo-600"></i>
+          <h3 class="text-xl font-semibold mb-2">Monetiza tu pasión</h3>
+          <p>Estrategias para generar ingresos online (ads, afiliados y creación de productos).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="bg-white py-20">
+    <div class="max-w-7xl mx-auto px-6 grid gap-8 sm:grid-cols-3 text-center">
+      <div>
+        <p class="text-5xl font-bold text-indigo-600">50K+</p>
+        <p class="mt-2">Lectores mensuales</p>
+      </div>
+      <div>
+        <p class="text-5xl font-bold text-indigo-600">120+</p>
+        <p class="mt-2">Guías publicadas</p>
+      </div>
+      <div>
+        <p class="text-5xl font-bold text-indigo-600">95%</p>
+        <p class="mt-2">Tasa de satisfacción</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Últimas publicaciones</h2>
+      <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44363d?auto=format&fit=crop&w=800&q=60" alt="" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">Cómo empezar a invertir en CEDEARs con $10 000</h3>
+            <p class="mt-3 text-sm text-gray-600">Guía paso a paso para principiantes sin experiencia en Bolsa.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1517701559675-63efb4e87de0?auto=format&fit=crop&w=800&q=60" alt="" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">Las 5 mejores billeteras cripto para argentinos</h3>
+            <p class="mt-3 text-sm text-gray-600">Comparamos fees, seguridad y facilidad de uso.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1508385082359-f154d2460073?auto=format&fit=crop&w=800&q=60" alt="" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">Cómo crear un presupuesto y no morir en el intento</h3>
+            <p class="mt-3 text-sm text-gray-600">Plantillas descargables y trucos para mantenerte en el camino.</p>
+            <a href="#" class="read-more">Leer más →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="bg-indigo-600 text-white py-16">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">Suscríbete y recibe nuestra guía gratuita</h2>
+      <p class="mb-6 text-lg">Consejos accionables cada semana directo en tu correo.</p>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="email" required placeholder="Tu email" class="w-full sm:w-auto px-4 py-3 rounded-md text-gray-800">
+        <button type="submit" class="px-6 py-3 rounded-md bg-white text-indigo-700 font-semibold hover:bg-gray-100 transition">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">¿Preguntas? ¡Hablemos!</h2>
+      <p class="mb-8">Escribe a <a href="mailto:hola@finanzasya.com" class="text-indigo-600 underline">hola@finanzasya.com</a> o envíanos un mensaje por <a href="#" class="text-indigo-600 underline">WhatsApp</a>.</p>
+      <a href="#newsletter" class="inline-block px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-500 transition">Únete a la comunidad</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <h3 class="text-white font-semibold mb-4">FinanzasYA</h3>
+        <p>© <span id="year"></span> FinanzasYA. Todos los derechos reservados.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contenido</h4>
+        <ul>
+          <li><a href="#features" class="footer-link">Funcionalidades</a></li>
+          <li><a href="#blog" class="footer-link">Blog</a></li>
+          <li><a href="#newsletter" class="footer-link">Newsletter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Legal</h4>
+        <ul>
+          <li><a href="#" class="footer-link">Política de Privacidad</a></li>
+          <li><a href="#" class="footer-link">Términos de Uso</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Síguenos</h4>
+        <div class="flex space-x-4">
+          <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
